@@ -48,7 +48,7 @@ public class SalesCalcService {
         int lessAverageMonth = 0;
         for (int i = 0; i < sales.length; i++) {
             if (sales[i] < average) {
-               lessAverageMonth++;
+                lessAverageMonth++;
             }
         }
         return lessAverageMonth;
